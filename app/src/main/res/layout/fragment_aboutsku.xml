@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.aboutsku.AboutskuFragment"
+    tools:ignore="MissingClass">
+
+    <TextView
+        android:id="@+id/text_aboutsku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/skupicture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="-230dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="About University"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       Sri Krishnadevaraya University, Ananthapuramu, had its beginning as a Postgraduate Centre of Sri Venkateswara University in the year 1967-68. It gained autonomy in the year 1976. Fulfilling the desires of the people of the region, the Autonomous Postgraduate Centre was accorded the status of a University in the year 1981. Initially, Sri Krishnadevaraya University functioned as a unitary University. It was conferred the status of an affiliating University in the year 1988. Presently, it caters to the higher education needs of Rayalaseema region in general and Ananthapuramu District in particular. The Postgraduate Centre at Kurnool, which was brought under the jurisdiction of the University in the year 1993, became a separate University in 2008.
+
+
+
+
+
+Starting with just five departments of study and a hundred students, the University has now five colleges on the campus: SKU College of Arts, SKU College of Sciences, SKU College of Engineering and Technology, SKU College of Education, and SKU College of Pharmacy.
+
+
+
+
+SKU College of Arts has 13 Departments offering 18 PG courses besides one UG course. SKU College of Sciences has 16 Departments offering 19 PG courses. SKU College of Engineering and Technology, started in 2006-07, offers M. Tech. in three branches and B. Tech. in five branches. SKU College of Education, started in 2007-2008, offers M.Ed. and B.Ed. programmes. SKU College of Pharmacy, started in 2008-2009, offers M. Pharmacy with three specializations and B. Pharmacy programmes.
+
+
+
+The territorial jurisdiction of the University comprises the revenue district of Ananthapuramu. Situated in rural environs, 10 km away from Ananthapuramu city, in an extensive campus of 482 acres of land, the University has built extensive academic and administrative buildings, hostels, residential quarters, etc."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="350dp"
+        android:padding="12dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

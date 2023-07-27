@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Disclaimer.DisclaimerFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+
+
+
+     android:text="@string/menu_disclaimer"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:padding="20dp"
+
+        android:text="This syllabus is provided for informational purposes only. The instructor reserves the right to make changes to the syllabus at any time, and students are responsible for staying informed of these changes. The syllabus is not a contract, and the instructor is not obligated to provide any specific services or materials."/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:text="About Developer" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:text="Name : Jagadish Mekala"
+        android:textAlignment="textEnd"
+        android:layout_marginLeft="120dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:text="Phone: 8106238184"
+        android:layout_marginLeft="120dp"
+        android:textAlignment="textEnd"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="120dp"
+        android:text="Email : jagadishmekala2000@gmail.com"
+        android:textAlignment="textEnd"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/linkdin1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:clickable="true"
+        android:onClick="Linkedin"
+        tools:ignore="UsingOnClickInXml"
+        android:src="@drawable/linkedin"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="135dp"/>
+
+    <ImageView
+        android:id="@+id/github"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:clickable="true"
+        android:onClick="Github"
+        tools:ignore="UsingOnClickInXml"
+        android:src="@drawable/github"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="300dp"/>
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/portfolio"
+        android:clickable="true"
+        android:onClick="Portfolio"
+        tools:ignore="UsingOnClickInXml"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="180dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/instagram"
+
+        android:clickable="true"
+        android:onClick="instagram"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="220dp"
+        tools:ignore="UsingOnClickInXml" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/blogger"
+        android:clickable="true"
+        android:onClick="jblogger"
+        tools:ignore="UsingOnClickInXml"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="260dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/whatsapp"
+        android:clickable="true"
+        android:onClick="Whatsapp"
+        tools:ignore="UsingOnClickInXml"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="340dp"/>
+
+
+
+
+
+
+</FrameLayout>
+</ScrollView>

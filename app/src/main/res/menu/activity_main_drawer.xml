@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/map"
+            android:title="@string/menu_slideshow"
+            />
+        <item android:title="Website Official"
+            android:id="@+id/nav_homepagesku"
+            android:layout_height="30dp"
+            android:clickable="true"
+            android:onClick="homepage"
+            tools:ignore="UsingOnClickInXml"
+            android:icon="@drawable/websitesku"/>
+
+        <item android:title="Atal Incubation Centre"
+                android:id="@+id/nav_websitesku"
+            android:clickable="true"
+            android:onClick="Websitesku"
+            tools:ignore="UsingOnClickInXml"
+            android:icon="@drawable/www"/>
+
+
+
+
+        <item android:title="Notifications"
+            android:clickable="true"
+            android:onClick="Notificationsku"
+            tools:ignore="UsingOnClickInXml"
+            android:id="@+id/nav_notificationsku"
+            android:icon="@drawable/bellsku"/>
+
+        <item android:title="Jnanabhumi Results"
+            android:clickable="true"
+            android:onClick="Resultsku"
+            tools:ignore="UsingOnClickInXml"
+            android:icon="@drawable/resultsku"/>
+
+        <item android:title="@string/menu_aboutsku"
+            android:id="@+id/nav_aboutsku"
+
+            android:icon="@drawable/university" />
+
+        <item android:title="@string/menu_disclaimer"
+            android:id="@+id/nav_disclaimer"
+            android:icon="@drawable/disclaimersku"/>
+
+        <item android:title="Feedback"
+            android:clickable="true"
+            android:onClick="Feedback"
+            tools:ignore="UsingOnClickInXml"
+            android:icon="@drawable/feedbacksku"/>
+
+
+    </group>
+</menu>
